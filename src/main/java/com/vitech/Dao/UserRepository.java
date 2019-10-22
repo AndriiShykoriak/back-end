@@ -1,6 +1,6 @@
-package com.vitech.repository;
+package com.vitech.Dao;
 
-import com.vitech.model.User;
+import com.vitech.Entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

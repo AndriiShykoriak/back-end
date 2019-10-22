@@ -1,4 +1,4 @@
-package com.vitech.exception;
+package com.vitech.Exception;
 
 import java.util.Date;
 

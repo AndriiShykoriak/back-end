@@ -1,4 +1,4 @@
-package com.vitech.controller;
+package com.vitech.Controller;
 
 import java.util.HashMap;
 
@@ -7,8 +7,8 @@ import java.util.Map;
 
 import javax.validation.Valid;
 
-import com.vitech.repository.UserRepository;
-import com.vitech.model.User;
+import com.vitech.Dao.UserRepository;
+import com.vitech.Entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.vitech.exception.ResourceNotFoundException;
+import com.vitech.Exception.ResourceNotFoundException;
 
 
 @CrossOrigin(origins = "http://localhost:4200")
