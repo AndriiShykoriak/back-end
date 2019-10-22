@@ -1,9 +1,9 @@
-package net.guides.springboot2.springboot2jpacrudexample;
+package com.vitech;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
-import net.guides.springboot2.springboot2jpacrudexample.model.User;
+import com.vitech.model.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

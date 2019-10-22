@@ -1,4 +1,4 @@
-package net.guides.springboot2.springboot2jpacrudexample.Config;
+package com.vitech.Config;
 
 
 import com.zaxxer.hikari.*;

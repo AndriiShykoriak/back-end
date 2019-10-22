@@ -1,4 +1,4 @@
-package net.guides.springboot2.springboot2jpacrudexample.controller;
+package com.vitech.controller;
 
 import java.util.HashMap;
 
@@ -7,8 +7,8 @@ import java.util.Map;
 
 import javax.validation.Valid;
 
-import net.guides.springboot2.springboot2jpacrudexample.model.User;
-import net.guides.springboot2.springboot2jpacrudexample.repository.UserRepository;
+import com.vitech.repository.UserRepository;
+import com.vitech.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import net.guides.springboot2.springboot2jpacrudexample.exception.ResourceNotFoundException;
+import com.vitech.exception.ResourceNotFoundException;
 
 
 @CrossOrigin(origins = "http://localhost:4200")

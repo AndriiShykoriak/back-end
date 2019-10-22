@@ -1,6 +1,6 @@
-package net.guides.springboot2.springboot2jpacrudexample.repository;
+package com.vitech.repository;
 
-import net.guides.springboot2.springboot2jpacrudexample.model.User;
+import com.vitech.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
