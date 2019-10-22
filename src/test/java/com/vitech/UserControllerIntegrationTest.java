@@ -39,7 +39,7 @@ public class UserControllerIntegrationTest {
 	}
 
 	@Test
-	public void testGetAllEmployees() {
+	public void testGetAllUsers() {
 		HttpHeaders headers = new HttpHeaders();
 		HttpEntity<String> entity = new HttpEntity<String>(null, headers);
 
@@ -69,7 +69,7 @@ public class UserControllerIntegrationTest {
 	}
 
 	@Test
-	public void testUpdateEmployee() {
+	public void testUpdateUser() {
 		int id = 1;
 		User user = restTemplate.getForObject(getRootUrl() + "/users/" + id, User.class);
 		user.setFirstname("admin1");
@@ -82,7 +82,7 @@ public class UserControllerIntegrationTest {
 	}
 
 	@Test
-	public void testDeleteEmployee() {
+	public void testDeleteUser() {
 		int id = 2;
 		User user = restTemplate.getForObject(getRootUrl() + "/users/" + id, User.class);
 		assertNotNull(user);
